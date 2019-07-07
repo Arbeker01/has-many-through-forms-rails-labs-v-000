@@ -7,7 +7,7 @@
   <p><%= category.name %></p>
 <% end %>
 
-<h2>Comments:</h2>
+<h3>Comments:</h3>
 <h3>Leave Your Comment</h3>
 <%= form_for @comment do |f| %>
   <%= f.number_field :post_id, value: @post.id, hidden: true %>
