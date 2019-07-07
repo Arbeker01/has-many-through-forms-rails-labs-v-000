@@ -1,6 +1,0 @@
-<h1>All Comments </h1>
-
-<h4>All Comments</h4>
-<% @comment.posts.uniq.each do |comment| %>
-  <p><%= link_to user.username, user_path(user) %></p>
-<% end %>
